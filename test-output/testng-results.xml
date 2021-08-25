@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Venu Gopal user added]]>
+    </line>
+    <line>
+      <![CDATA[Capturing Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href="C:\Users\ivenugopal\Desktop\rss feeds.png"> screenshot </a>]]>
+    </line>
+    <line>
+      <![CDATA[Padma user added]]>
+    </line>
+    <line>
+      <![CDATA[Capturing Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href="C:\Users\ivenugopal\Desktop\rss feeds.png"> screenshot </a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-08-19T17:11:59Z" name="DataDrivenBasics" finished-at="2021-08-19T17:12:09Z" duration-ms="9739">
+    <groups>
+    </groups>
+    <test started-at="2021-08-19T17:11:59Z" name="BankManagerLoginTest" finished-at="2021-08-19T17:12:02Z" duration-ms="3360">
+      <class name="com.intella.testCases.BankManagerLoginTest">
+        <test-method signature="BankManagerLogin()[pri:0, instance:com.intella.testCases.BankManagerLoginTest@372b0d86]" started-at="2021-08-19T17:11:59Z" name="BankManagerLogin" finished-at="2021-08-19T17:12:02Z" duration-ms="3323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BankManagerLogin -->
+      </class> <!-- com.intella.testCases.BankManagerLoginTest -->
+    </test> <!-- BankManagerLoginTest -->
+    <test started-at="2021-08-19T17:12:02Z" name="AddCustomerTest" finished-at="2021-08-19T17:12:09Z" duration-ms="6334">
+      <class name="com.intella.testCases.AddCustomerTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.intella.testCases.AddCustomerTest@29caf222]" started-at="2021-08-19T17:11:48Z" name="setup" finished-at="2021-08-19T17:11:59Z" duration-ms="11191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.intella.testCases.AddCustomerTest@29caf222]" started-at="2021-08-19T17:12:03Z" name="AddCustomer" data-provider="getData" finished-at="2021-08-19T17:12:06Z" duration-ms="3063" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Venu Gopal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Inturi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[76652.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login Test Failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login Test Failed
+at org.testng.Assert.fail(Assert.java:96)
+at com.intella.testCases.AddCustomerTest.AddCustomer(AddCustomerTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Venu Gopal user added]]>
+            </line>
+            <line>
+              <![CDATA[Capturing Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href="C:\Users\ivenugopal\Desktop\rss feeds.png"> screenshot </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddCustomer -->
+        <test-method signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.intella.testCases.AddCustomerTest@29caf222]" started-at="2021-08-19T17:12:06Z" name="AddCustomer" data-provider="getData" finished-at="2021-08-19T17:12:09Z" duration-ms="3148" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Padma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[342212.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login Test Failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login Test Failed
+at org.testng.Assert.fail(Assert.java:96)
+at com.intella.testCases.AddCustomerTest.AddCustomer(AddCustomerTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Padma user added]]>
+            </line>
+            <line>
+              <![CDATA[Capturing Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href="C:\Users\ivenugopal\Desktop\rss feeds.png"> screenshot </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.intella.testCases.AddCustomerTest@29caf222]" started-at="2021-08-19T17:12:09Z" name="tearDown" finished-at="2021-08-19T17:12:10Z" duration-ms="1563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.intella.testCases.AddCustomerTest -->
+    </test> <!-- AddCustomerTest -->
+  </suite> <!-- DataDrivenBasics -->
+</testng-results>

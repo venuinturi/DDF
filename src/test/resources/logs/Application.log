@@ -1,0 +1,8 @@
+22:41:48,369 DEBUG devpenoyLogger:49 - config file loaded
+22:41:48,374 DEBUG devpenoyLogger:52 - OR file loaded
+22:41:48,375 DEBUG devpenoyLogger:57 - Initialise chrome driver
+22:41:59,270 DEBUG devpenoyLogger:66 - Opened the requested URL
+22:41:59,582 DEBUG devpenoyLogger:16 - Inside Login Test
+22:42:02,895 DEBUG devpenoyLogger:22 - bankmanager login Complete
+22:42:06,122 DEBUG devpenoyLogger:30 - customer added Venu Gopal
+22:42:09,275 DEBUG devpenoyLogger:30 - customer added Padma

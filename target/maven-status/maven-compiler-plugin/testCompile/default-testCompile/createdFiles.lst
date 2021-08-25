@@ -1,0 +1,6 @@
+com\intella\testCases\BankManagerLoginTest.class
+com\intella\utilities\ExcelReader.class
+com\intella\listeners\CustomListeners.class
+com\intella\base\TestBase.class
+com\intella\testCases\AddCustomerTest.class
+com\intella\rough\TestProperties.class

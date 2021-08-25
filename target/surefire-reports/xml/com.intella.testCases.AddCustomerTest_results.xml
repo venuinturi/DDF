@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AddCustomerTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.958">
+  <properties />
+  
+  
+            <testcase name="AddCustomer" time="3.199" classname="com.intella.testCases.AddCustomerTest" />
+                <testcase name="AddCustomer" time="2.759" classname="com.intella.testCases.AddCustomerTest" />
+      
+</testsuite>

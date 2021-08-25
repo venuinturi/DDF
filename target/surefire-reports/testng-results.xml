@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Venu Gopal user added]]>
+    </line>
+    <line>
+      <![CDATA[Padma user added]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-08-19T18:26:14Z" name="DataDrivenBasics" finished-at="2021-08-19T18:26:23Z" duration-ms="9250">
+    <groups>
+    </groups>
+    <test started-at="2021-08-19T18:26:14Z" name="BankManagerLoginTest" finished-at="2021-08-19T18:26:17Z" duration-ms="3201">
+      <class name="com.intella.testCases.BankManagerLoginTest">
+        <test-method signature="BankManagerLogin()[pri:0, instance:com.intella.testCases.BankManagerLoginTest@285d851a]" started-at="2021-08-19T18:26:14Z" name="BankManagerLogin" finished-at="2021-08-19T18:26:17Z" duration-ms="3173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BankManagerLogin -->
+      </class> <!-- com.intella.testCases.BankManagerLoginTest -->
+    </test> <!-- BankManagerLoginTest -->
+    <test started-at="2021-08-19T18:26:17Z" name="AddCustomerTest" finished-at="2021-08-19T18:26:23Z" duration-ms="6018">
+      <class name="com.intella.testCases.AddCustomerTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.intella.testCases.AddCustomerTest@460f76a6]" started-at="2021-08-19T18:26:00Z" name="setup" finished-at="2021-08-19T18:26:14Z" duration-ms="13597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.intella.testCases.AddCustomerTest@460f76a6]" started-at="2021-08-19T18:26:17Z" name="AddCustomer" data-provider="getData" finished-at="2021-08-19T18:26:20Z" duration-ms="3199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Venu Gopal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Inturi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[76652.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Venu Gopal user added]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddCustomer -->
+        <test-method signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.intella.testCases.AddCustomerTest@460f76a6]" started-at="2021-08-19T18:26:20Z" name="AddCustomer" data-provider="getData" finished-at="2021-08-19T18:26:23Z" duration-ms="2759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Padma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[342212.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Padma user added]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.intella.testCases.AddCustomerTest@460f76a6]" started-at="2021-08-19T18:26:23Z" name="tearDown" finished-at="2021-08-19T18:26:25Z" duration-ms="2416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.intella.testCases.AddCustomerTest -->
+    </test> <!-- AddCustomerTest -->
+  </suite> <!-- DataDrivenBasics -->
+</testng-results>
