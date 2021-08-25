@@ -42,9 +42,7 @@ public class AddCustomerTest extends TestBase{
 		int cols=er.getColumnCount(SheetName);
 		
 		Object[][] data= new Object[rows-1][cols];
-		/*
-		 * a[0][0]="venu"; a[0][1]="gopal"; a[0][2]="300821";
-		 */
+		
 		
 		for(int rowNum=2;rowNum<=rows;rowNum++) {
 			for(int colNum=0;colNum<cols;colNum++) {
